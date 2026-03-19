@@ -1,0 +1,147 @@
+.timeline {
+  position: relative;
+  padding-left: 3rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 15px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(to bottom, var(--accent-primary), var(--accent-secondary), transparent);
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.timeline-item:last-child {
+  margin-bottom: 0;
+}
+
+.timeline-marker {
+  position: absolute;
+  left: -3rem;
+  top: 1.5rem;
+  width: 32px;
+  display: flex;
+  justify-content: center;
+}
+
+.timeline-dot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--bg-secondary);
+  border: 3px solid var(--accent-primary);
+  position: relative;
+  z-index: 2;
+}
+
+.timeline-dot.current {
+  background: var(--accent-primary);
+  box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.2), 0 0 20px rgba(99, 102, 241, 0.3);
+}
+
+.timeline-content {
+  padding: 1.75rem;
+  transition: all 0.3s ease;
+}
+
+.timeline-content:hover {
+  border-color: rgba(99, 102, 241, 0.3);
+}
+
+.timeline-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.timeline-role {
+  font-family: "Outfit", sans-serif;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+.timeline-company {
+  font-size: 0.95rem;
+  color: var(--accent-primary);
+  font-weight: 500;
+  margin: 0.25rem 0 0;
+}
+
+.timeline-date {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  white-space: nowrap;
+  padding: 0.3rem 0.75rem;
+  background: rgba(99, 102, 241, 0.08);
+  border-radius: 100px;
+  border: 1px solid rgba(99, 102, 241, 0.12);
+}
+
+.timeline-details {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.timeline-details li {
+  position: relative;
+  padding-left: 1.25rem;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+.timeline-details li::before {
+  content: "▹";
+  position: absolute;
+  left: 0;
+  color: var(--accent-primary);
+  font-size: 0.85rem;
+}
+
+@media (max-width: 768px) {
+  .timeline {
+    padding-left: 2rem;
+  }
+
+  .timeline::before {
+    left: 10px;
+  }
+
+  .timeline-marker {
+    left: -2rem;
+    width: 22px;
+  }
+
+  .timeline-dot {
+    width: 12px;
+    height: 12px;
+  }
+
+  .timeline-header {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .timeline-date {
+    align-self: flex-start;
+  }
+}

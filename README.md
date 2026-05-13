@@ -7,6 +7,8 @@ Currently working as an Architect at PepsiCo, focusing on system design, perform
 - 🏗 Interested in: Clean architecture, micro frontends, scalable APIs
 - 👥 I enjoy: Mentoring devs, reviewing code, leading design discussions
 - ✍️ I write at: [My tech blog](https://vikashraj144blog.wordpress.com/)
+- https://vikashask-resume.vercel.app/
+- https://vikashask.vercel.app/
 
 ### 🛠 Tech stack
 

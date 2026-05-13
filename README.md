@@ -1,16 +1,27 @@
-# React + Vite
+# Hi, I'm Vikash 👋
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Full‑stack Architect** with 12+ years of experience building scalable web applications with React, Angular, Node.js, PHP, and MySQL.  
+Currently working as an Architect at PepsiCo, focusing on system design, performance, and developer mentorship.
 
-Currently, two official plugins are available:
+- 🧠 Strong in: React, Gatsby, Angular, Node.js, Express, PHP, MySQL
+- 🏗 Interested in: Clean architecture, micro frontends, scalable APIs
+- 👥 I enjoy: Mentoring devs, reviewing code, leading design discussions
+- ✍️ I write at: [My tech blog](https://vikashraj144blog.wordpress.com/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### 🛠 Tech stack
 
-## React Compiler
+- Frontend: React, Gatsby, Angular, TypeScript
+- Backend: Node.js, Express, PHP
+- Databases: MySQL, PostgreSQL, MongoDB
+- Tools & Practices: GitHub Actions, CI/CD, Docker, Agile
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 📌 Featured repositories
 
-## Expanding the ESLint configuration
+- [js-topic](https://github.com/vikashask/js-topic) – Curated JavaScript topics and snippets
+- [nodejs-topics](https://github.com/vikashask/nodejs-topics) – Node.js concepts with examples
+- [MEAN-Interview-Question](https://github.com/vikashask/MEAN-Interview-Question) – MEAN‑stack interview Q&A
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 📫 How to reach me
+
+- Email: vikashraj144@gmail.com
+- Location: Hyderabad
